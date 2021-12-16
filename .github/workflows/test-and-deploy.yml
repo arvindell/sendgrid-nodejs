@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 20
     strategy:
       matrix:
-        node: [ 6, 7, 8, 10, lts/*, latest ]
+        node: [ 6, 7, 8, 10, lts/* ]
     steps:
       - name: Checkout sendgrid-nodejs
         uses: actions/checkout@v2
